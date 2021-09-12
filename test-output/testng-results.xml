@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41788" started-at="2021-09-12T11:51:28 IST" finished-at="2021-09-12T11:52:10 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.cucumberrunner@6cc7b4de]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="41788" started-at="2021-09-12T11:51:28 IST" finished-at="2021-09-12T11:52:10 IST">
+      <class name="bdd.cucumberrunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:bdd.cucumberrunner@6cc7b4de]" name="setUpClass" is-config="true" duration-ms="478" started-at="2021-09-12T11:51:28 IST" finished-at="2021-09-12T11:51:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.cucumberrunner@6cc7b4de]" name="feature" duration-ms="40959" started-at="2021-09-12T11:51:29 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-09-12T11:52:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Application Login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:bdd.cucumberrunner@6cc7b4de]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2021-09-12T11:52:10 IST" finished-at="2021-09-12T11:52:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- bdd.cucumberrunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.properties.reader.listeners"/>
+    <listener class-name="com.properties.reader.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="runner.Testrunner">
+        <methods>
+          <include name="teardown"/>
+          <include name="travel" invocation-numbers="0"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- runner.Testrunner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
